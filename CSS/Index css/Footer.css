@@ -1,0 +1,22 @@
+.Bottom-Page {
+    max-height: 18vh;
+    margin: 0;
+    padding: 0ch;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    
+    
+}
+.arrow-ico {
+    height: 60px;
+    width: 60px;
+    margin:25px;
+    float: right;
+}
+.Copy-text {
+    color: thistle;
+    position: absolute;
+    margin: 3% 30% auto 35%;
+    font-size: 25px;
+}

@@ -1,0 +1,45 @@
+.aboutus {
+    min-height: 84vh;
+    margin: 0ch;
+    background-color: rgb(71, 71, 71);
+    background-color: #e9bcb7;
+    background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+    display: flex;
+    flex-wrap: wrap;
+    position:relative;
+} 
+.aboutus-img{
+    height:200px;
+    display: flex;
+    margin: 60px 0px 0px 50px;
+}
+.aboutus-title {
+    font-size: 25px;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+.aboutus-imgandtext {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.aboutus-text {
+    max-width: 400px;
+    font-size: 20px;
+    display: flex;
+    flex: wrap;
+    margin: 10px 50px 50px 50px;
+    
+}
+.aboutus-ico {
+    display: flex;
+    flex-wrap: wrap;
+    position:relative;
+    margin-top: -8%;
+    margin-left: 4.6%;
+}
+.aboutus-link-ico {
+    height: 40px;
+    justify-content: space-around;
+    margin: 25px;
+}

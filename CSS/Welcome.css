@@ -1,0 +1,91 @@
+.background {
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("../Images/YourName1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: right;
+    position: relative;
+}
+.welcome {
+    max-height: 90vh;
+    width: auto;
+
+}
+.welcome {
+    height: auto;
+    width: 400px;
+    margin: 200px 200px auto auto;
+    background-blend-mode: color-dodge;
+}
+.drop-down-ico {
+    height: 40px;
+    position: absolute;
+    margin-left: 280px;
+    margin-top: -50px;
+    transition: 0.5s;
+    opacity: 0.75;
+}
+.drop-down-ico:hover {
+    background-color: rgba(255, 0, 0,0.2);
+    opacity: 1;
+    transition: 0.5s;
+}
+.YN-H-link{
+    height: 40px;
+    width: 130px;
+    background-color: black;
+    margin: 220px auto auto 60px;
+    position:absolute;
+    font-size: 40px;
+    opacity: 0%;
+}
+.Wel-title {
+    color: darkcyan;
+    font-size: 400%;
+    font-style: italic;
+    font-family: 'Comic Neue', cursive;
+}
+.anime-bottons {
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto auto auto 40%;
+    
+}
+.anime-bottons >div {
+    height: 50px;
+    line-height: 50px;
+    width: 150px;
+    background-color: rgba(68, 0, 255,0.2);
+    margin: 20px;
+    border-radius: 20%;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    animation-name: scale;
+    animation-duration: 2s;
+    animation-timing-function:cubic-bezier(1, 0, 0, 1);
+}
+@keyframes scale {
+    from {
+        transform: scale(0);
+        opacity: 0%;
+    }
+    to {
+        transform: scale(1);
+        opacity: 100%;
+    }
+}
+
+.anime-bottons >div>a {
+    text-decoration: none;
+    color: rgb(0, 140, 255);
+}
+.anime-bottons>.anime-sections {
+    background-color: rgba(183, 0, 255, 0.2);
+    color: rgb(0, 255, 255);
+    
+    text-decoration: underline;
+}

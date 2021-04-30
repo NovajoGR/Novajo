@@ -3,20 +3,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
     background-color: #2f4353;
     background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);
 }
 .contact-title {
     font-size: 35px;
-    margin-top: -400px;
-    margin-bottom: 50px;
+    margin-bottom: 450px;
+    margin-left: auto;
+    margin-right: auto;
     position: absolute;
     color:red;
 }
 .contact-form {
     display: flex;
     flex-direction: column;
+
 }
 .contact-email {
     border:none;
@@ -44,6 +46,7 @@
     font-size: 20px;
     overflow: auto;
     transition: 0.5s;
+    padding: 15px;
 }
 .contact-comment:focus {
     background-color:rgba(95, 118, 160, 0.5);
@@ -56,13 +59,11 @@
     margin-left:82.5% ;
     font-family: sans-serif;
     text-align: left;
-    
     padding: 5px;
     border: none;
     font-size: 15px;
     font-family: serif;
     transition: 0.2s;
-
 }
 .contact-button:hover {
     width: 60px;
@@ -87,8 +88,7 @@
     height: 40px;
     position: absolute;
     margin-left: -40px;
-    margin-top: 250px;
-    margin-bottom: 20px;
+    margin-top: 230px;
     opacity: 0.75;
     transition: 0.5s;
 }

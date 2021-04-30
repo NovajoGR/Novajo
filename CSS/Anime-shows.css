@@ -11,6 +11,7 @@
 }
 .animeshows-tv {
     max-height: 350px;
+    width: auto;
     position: absolute;
 }
 .animeshows-video-container {
@@ -34,4 +35,27 @@
     background-color: rgba(255, 0, 0,0.2);
     opacity: 1;
     transition: 0.5s;
+}
+@media only screen and (max-width:720px) {
+    .animeshows-tv {
+        max-height: 200px;
+    }
+    .animeshows-video-container {
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+    .animeshows-video {
+        max-height: 225px;
+        max-width:300px; 
+        position: relative; 
+    }
+    .AnimeShows-icon-arrow {
+        height: 40px;
+        opacity: 0.75;
+        display: flex;
+        position: absolute;
+        margin-top: 200px;
+        margin-left: -165px;
+        transition: 0.5s;
+    }
 }

@@ -1,18 +1,17 @@
 .background {
     min-height: 100vh;
     width: 100%;
-    margin: 0;
     padding: 0;
+    margin: 0;
     background-image: url("../Images/YourName1.jpg");
     background-repeat: no-repeat;
     background-size:cover;
-    background-position: right;
+    background-position: left;
     position: relative;
 }
 .welcome {
     max-height: 90vh;
     width: auto;
-
 }
 .welcome {
     height: auto;
@@ -20,19 +19,7 @@
     margin: 200px 200px auto auto;
     background-blend-mode: color-dodge;
 }
-.drop-down-ico {
-    height: 40px;
-    position: absolute;
-    margin-left: 280px;
-    margin-top: -50px;
-    transition: 0.5s;
-    opacity: 0.75;
-}
-.drop-down-ico:hover {
-    background-color: rgba(255, 0, 0,0.2);
-    opacity: 1;
-    transition: 0.5s;
-}
+
 .YN-H-link{
     height: 40px;
     width: 130px;
@@ -86,6 +73,18 @@
 .anime-bottons>.anime-sections {
     background-color: rgba(183, 0, 255, 0.2);
     color: rgb(0, 255, 255);
-    
     text-decoration: underline;
+}
+.drop-down-ico {
+    height: 40px;
+    position: absolute;
+    margin-left: 280px;
+    margin-top: -50px;
+    transition: 0.5s;
+    opacity: 0.75;
+}
+.drop-down-ico:hover {
+    background-color: rgba(255, 0, 0,0.2);
+    opacity: 1;
+    transition: 0.5s;
 }

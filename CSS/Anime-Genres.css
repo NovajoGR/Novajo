@@ -88,10 +88,10 @@
 }
 .genres-icon-arrow {
     display: flex;
-    flex-wrap: wrap;
-    position: relative;
+    flex-flow: wrap;
+    margin: 10px;
     height: 40px;
-    margin: 0 200px 25px 200px;
+    position: relative;
     opacity: 0.75;
     transition: 0.5s;
 }

@@ -33,7 +33,6 @@
     transition: 0.5s;
 }
 .AnimeShows-icon-arrow:hover {
-    background-color: rgba(255, 0, 0,0.2);
     opacity: 1;
     transition: 0.5s;
 }

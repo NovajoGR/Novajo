@@ -76,9 +76,9 @@
     height: 40px;
     opacity: 0.75;
     transition: 0.5s;
+    margin-bottom: 25px;
 }
 .drop-down-ico-img:hover {
-    background-color: rgba(255, 0, 0,0.2);
     opacity: 1;
     transition: 0.5s;
 }

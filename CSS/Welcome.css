@@ -8,6 +8,7 @@
     background-size:cover;
     background-position:30%;
     position: relative;
+    overflow-x: hidden;
 }
 .welcome {
     max-height: 90vh;

@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: center;
     background: linear-gradient(to bottom right,#141e30 , #243b55);
+    overflow-x: hidden;
 }
 .genres-container .box {
     position: relative;

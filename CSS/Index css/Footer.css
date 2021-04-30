@@ -5,6 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow-x: hidden;
 }
 .arrow-ico {
     height: 60px;
